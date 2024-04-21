@@ -12,7 +12,7 @@ from folium.plugins import HeatMap
 import os
 
 # Load the data
-df = pd.read_csv("merged.csv", sep=";")
+df = pd.read_csv("Dataset-map\merged.csv", sep=";")
 df = df.dropna()
 
 # Create the map
